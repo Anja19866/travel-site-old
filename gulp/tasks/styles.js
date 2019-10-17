@@ -8,7 +8,7 @@ mixins = require('postcss-mixins');
 
 gulp.task('styles', function() {
     return gulp.src('./app/assets/styles/styles.css')
-    .pipe(postcss([cssImport, cssvars, , mixins, nested, autoprefixer]))
+    .pipe(postcss([cssImport, cssvars, mixins, nested, autoprefixer]))
     .on('error', function(errorInfo) {
         console.log(errorInfo.toString());
         this.emit('end');
