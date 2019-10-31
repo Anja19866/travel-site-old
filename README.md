@@ -17,5 +17,5 @@
 #
 #
 #
-###to fix this, I started a 2nd-version and will finish the project, 
+###to fix this, I started a 2nd-version and am going to finish the project, 
 ###working on this branch as the default branch!
