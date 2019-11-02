@@ -40,7 +40,7 @@
             transform: translate(0);
 
             .site-header--dark & {
-                transform: scale(.57); //add transition for this in the parent-element -> &__logo
+                transform: scale(.56); //add transition for this in the parent-element -> &__logo
         }
     }
 
